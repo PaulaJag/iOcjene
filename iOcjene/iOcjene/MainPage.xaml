@@ -9,8 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="0" Margin="180,67,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
-        <TextBox HorizontalAlignment="Left" Margin="356,98,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="204" Width="622" FontSize="50"/>
+        <TextBox HorizontalAlignment="Left" Height="0" Margin="180,50,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,50,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="90" Width="200" FontSize="50" TextChanged="TextBox_TextChanged" IsReadOnly="True"/>
+        <Button Content="Predmeti" Margin="0,200,0,0" VerticalAlignment="Top" Height="50" Width="300" HorizontalAlignment="Center" FontSize="20"/>
+        <Button Content="Ispiti" Margin="0,275,0,0" VerticalAlignment="Top" Height="50" Width="300" HorizontalAlignment="Center" FontSize="20"/>
+        <Button Content="Usmene provjere" Margin="0,350,0,0" VerticalAlignment="Top" Height="50" Width="300" HorizontalAlignment="Center" FontSize="20"/>
+        <Button Content="Negativne ocjene" Margin="0,425,0,0" VerticalAlignment="Top" Height="50" Width="300" HorizontalAlignment="Center" FontSize="20"/>
+        <Button Content="Odjava" Margin="0,650,0,0" VerticalAlignment="Top" Height="50" Width="300" HorizontalAlignment="Center" FontSize="20"/>
 
     </Grid>
 </Page>
