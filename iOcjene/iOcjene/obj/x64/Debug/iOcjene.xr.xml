@@ -8,18 +8,24 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="FontFamily" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -30,7 +36,14 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="iOcjene.MainPage" />
+    <RootType FullName="iOcjene.Pages.Ispiti" />
+    <RootType FullName="iOcjene.Pages.NegativneOcjene" />
+    <RootType FullName="iOcjene.Pages.Predmeti" />
+    <RootType FullName="iOcjene.Pages.UsmeneProvjere" />
   </Roots.RootTypes>
 </Roots>

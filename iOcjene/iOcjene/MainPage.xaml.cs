@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iOcjene.Pages;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -32,14 +33,24 @@ namespace iOcjene
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Predmeti_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(Predmeti));
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Ispiti_Click(object sender, RoutedEventArgs e)
         {
+            Frame.Navigate(typeof(Ispiti));
+        }
 
+        private void UsmeneProvjere_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(UsmeneProvjere));
+        }
+
+        private void NegativneOcjene_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(NegativneOcjene));
         }
     }
 }

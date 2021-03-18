@@ -122,6 +122,18 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Ispiti.xaml.cs">
+      <DependentUpon>Ispiti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NegativneOcjene.xaml.cs">
+      <DependentUpon>NegativneOcjene.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Predmeti.xaml.cs">
+      <DependentUpon>Predmeti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UsmeneProvjere.xaml.cs">
+      <DependentUpon>UsmeneProvjere.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +159,22 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Ispiti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\NegativneOcjene.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Predmeti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\UsmeneProvjere.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

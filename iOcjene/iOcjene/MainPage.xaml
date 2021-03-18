@@ -9,13 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid FocusVisualPrimaryBrush="{x:Null}" Background="#FFDCE1DE">
-        <TextBox HorizontalAlignment="Left" Height="0" Margin="180,50,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,92,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="123" Width="520" FontSize="50" TextChanged="TextBox_TextChanged" IsReadOnly="True" TextAlignment="Center" Opacity="0.8" FontFamily="Verdana"/>
-        <Button Content="Predmeti" Margin="0,293,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" RequestedTheme="Light" Background="Red"/>
-        <Button Content="Ispiti" Margin="0,399,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Click="Button_Click_1" Background="White"/>
-        <Button Content="Usmene provjere" Margin="0,504,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Background="#FF0019FF"/>
-        <Button Content="Negativne ocjene" Margin="0,610,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Background="White"/>
-        <Button Content="Odjava" Margin="0,944,0,0" VerticalAlignment="Top" Height="56" Width="1536" HorizontalAlignment="Center" FontSize="24" Background="#FFFF6300"/>
+        <TextBox x:Name="iOcjene" HorizontalAlignment="Center" Margin="0,92,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="123" Width="520" FontSize="50" TextChanged="TextBox_TextChanged" IsReadOnly="True" TextAlignment="Center" Opacity="0.8" FontFamily="Verdana"/>
+        <Button x:Name="Predmeti" Content="Predmeti" Margin="0,293,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" RequestedTheme="Light" Background="Red" Click="Predmeti_Click"/>
+        <Button x:Name="Ispiti" Content="Ispiti" Margin="0,399,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Click="Button_Click_1" Background="White"/>
+        <Button x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,504,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Background="#FF0019FF" Click="UsmeneProvjere_Click"/>
+        <Button x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,610,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Background="White" Click="NegativneOcjene_Click"/>
+        <Button x:Name="Odjava" Content="Odjava" Margin="0,944,0,0" VerticalAlignment="Top" Height="56" Width="1536" HorizontalAlignment="Center" FontSize="24" Background="#FFFF6300"/>
 
     </Grid>
 </Page>
