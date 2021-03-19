@@ -13,6 +13,16 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -26,6 +36,8 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="FontFamily" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -38,11 +50,19 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Background" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="BorderBrush" />
       <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.AcrylicBrush">
+      <RootProperty Name="AlwaysUseFallback" />
+      <RootProperty Name="BackgroundSource" />
+      <RootProperty Name="TintColor" />
     </RootType>
     <RootType FullName="iOcjene.MainPage" />
     <RootType FullName="iOcjene.Pages.Ispiti" />
     <RootType FullName="iOcjene.Pages.NegativneOcjene" />
+    <RootType FullName="iOcjene.Pages.Odjava" />
     <RootType FullName="iOcjene.Pages.Predmeti" />
     <RootType FullName="iOcjene.Pages.UsmeneProvjere" />
   </Roots.RootTypes>

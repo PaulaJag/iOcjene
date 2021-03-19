@@ -52,5 +52,10 @@ namespace iOcjene
         {
             Frame.Navigate(typeof(NegativneOcjene));
         }
+
+        private void Odjava_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Odjava));
+        }
     }
 }

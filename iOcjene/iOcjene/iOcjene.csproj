@@ -128,6 +128,9 @@
     <Compile Include="Pages\NegativneOcjene.xaml.cs">
       <DependentUpon>NegativneOcjene.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Odjava.xaml.cs">
+      <DependentUpon>Odjava.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Predmeti.xaml.cs">
       <DependentUpon>Predmeti.xaml</DependentUpon>
     </Compile>
@@ -165,6 +168,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\NegativneOcjene.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Odjava.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>L2-H2JM3TJ</Machine>
-    <WindowsUser>David</WindowsUser>
+    <Machine>SS-43-7</Machine>
+    <WindowsUser>Ga-gama</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>9368a348-c897-44ad-b602-eb22f95fcc22</PackageIdentityName>
     <PackageIdentityPublisher>CN=Ga-gama</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>522072411F673AE6C5A4CDE7AC07C201EC959007CBDA59D55A1B3A5B9A61981B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>9368a348-c897-44ad-b602-eb22f95fcc22_1.0.0.0_x64__xa50dvkgph76w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9368a348-c897-44ad-b602-eb22f95fcc22_xa50dvkgph76w!App</RegisteredUserModeAppID>
@@ -27,102 +27,106 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-18T21:35:09.825</Modified>
+      <Modified>2021-03-19T13:15:47.356</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\iOcjene.exe">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\iOcjene.exe">
       <PackagePath>entrypoint\iOcjene.exe</PackagePath>
-      <Modified>2021-03-18T21:35:04.044</Modified>
+      <Modified>2021-03-19T13:15:46.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T18:17:32.000</Modified>
+      <Modified>2020-02-27T17:17:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-03-09T19:50:50.078</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-09T19:50:50.062</Modified>
+      <Modified>2021-03-10T12:45:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\iOcjene.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\iOcjene.xr.xml">
       <PackagePath>iOcjene.xr.xml</PackagePath>
-      <Modified>2021-03-18T21:32:42.180</Modified>
+      <Modified>2021-03-19T13:15:46.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-18T21:34:20.625</Modified>
+      <Modified>2021-03-19T13:15:46.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-18T21:34:20.625</Modified>
+      <Modified>2021-03-19T13:15:46.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\Ispiti.xbf">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\Ispiti.xbf">
       <PackagePath>Pages\Ispiti.xbf</PackagePath>
-      <Modified>2021-03-18T21:34:20.626</Modified>
+      <Modified>2021-03-19T13:15:46.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\NegativneOcjene.xbf">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\NegativneOcjene.xbf">
       <PackagePath>Pages\NegativneOcjene.xbf</PackagePath>
-      <Modified>2021-03-18T21:34:20.627</Modified>
+      <Modified>2021-03-19T13:15:46.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\Predmeti.xbf">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\Odjava.xbf">
+      <PackagePath>Pages\Odjava.xbf</PackagePath>
+      <Modified>2021-03-19T13:15:46.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\Predmeti.xbf">
       <PackagePath>Pages\Predmeti.xbf</PackagePath>
-      <Modified>2021-03-18T21:34:20.627</Modified>
+      <Modified>2021-03-19T13:15:46.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\UsmeneProvjere.xbf">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\UsmeneProvjere.xbf">
       <PackagePath>Pages\UsmeneProvjere.xbf</PackagePath>
-      <Modified>2021-03-18T21:34:20.628</Modified>
+      <Modified>2021-03-19T13:15:46.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-18T21:35:06.910</Modified>
+      <Modified>2021-03-19T13:15:46.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Core\iOcjene.exe">
+    <AppxPackagedFile Include="C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Core\iOcjene.exe">
       <PackagePath>iOcjene.exe</PackagePath>
-      <Modified>2021-03-18T21:35:09.690</Modified>
+      <Modified>2021-03-19T13:15:47.338</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

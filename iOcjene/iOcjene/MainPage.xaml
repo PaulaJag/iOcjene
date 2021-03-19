@@ -9,12 +9,20 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid FocusVisualPrimaryBrush="{x:Null}" Background="#FFDCE1DE">
-        <TextBox x:Name="iOcjene" HorizontalAlignment="Center" Margin="0,92,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="123" Width="520" FontSize="50" TextChanged="TextBox_TextChanged" IsReadOnly="True" TextAlignment="Center" Opacity="0.8" FontFamily="Verdana"/>
-        <Button x:Name="Predmeti" Content="Predmeti" Margin="0,293,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" RequestedTheme="Light" Background="Red" Click="Predmeti_Click"/>
-        <Button x:Name="Ispiti" Content="Ispiti" Margin="0,399,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Click="Button_Click_1" Background="White"/>
-        <Button x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,504,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Background="#FF0019FF" Click="UsmeneProvjere_Click"/>
-        <Button x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,610,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="20" Background="White" Click="NegativneOcjene_Click"/>
-        <Button x:Name="Odjava" Content="Odjava" Margin="0,944,0,0" VerticalAlignment="Top" Height="56" Width="1536" HorizontalAlignment="Center" FontSize="24" Background="#FFFF6300"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="844" Margin="0,38,0,0" VerticalAlignment="Top" Width="1314">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCFFFFFF"/>
+            </Border.Background>
+        </Border>
+        <TextBox x:Name="iOcjene" HorizontalAlignment="Center" Margin="0,92,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="109" Width="520" FontSize="70" TextChanged="TextBox_TextChanged" IsReadOnly="True" TextAlignment="Center" Opacity="0.8" FontFamily="Yu Gothic" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="Predmeti" Content="Predmeti" Margin="0,293,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="Red" Click="Predmeti_Click" FontFamily="Yu Gothic"/>
+        <Button x:Name="Ispiti" Content="Ispiti" Margin="0,399,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Click="Ispiti_Click" Background="White" FontFamily="Yu Gothic"/>
+        <Button x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,504,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FF0019FF" Click="UsmeneProvjere_Click" FontFamily="Yu Gothic"/>
+        <Button x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,610,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="White" Click="NegativneOcjene_Click" FontFamily="Yu Gothic"/>
+        <Button x:Name="Odjava" Content="Odjava" Margin="0,934,0,0" VerticalAlignment="Top" Height="66" Width="1536" HorizontalAlignment="Center" FontSize="30" Background="White" BorderBrush="White" FontFamily="Yu Gothic" Click="Odjava_Click"/>
 
     </Grid>
 </Page>

@@ -9,6 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="844" VerticalAlignment="Center" Width="1314">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCFFFFFF"/>
+            </Border.Background>
+        </Border>
 
     </Grid>
 </Page>
