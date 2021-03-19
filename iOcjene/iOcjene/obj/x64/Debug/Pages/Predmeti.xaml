@@ -9,6 +9,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="844" VerticalAlignment="Center" Width="1314">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCFFFFFF"/>
+            </Border.Background>
+            <TextBlock Text="PREGLED OCJENA" TextWrapping="Wrap" Margin="60,62,928,735" FontSize="32" FontFamily="Yu Gothic" FontWeight="Bold"/>
+        </Border>
+        <TextBox HorizontalAlignment="Left" Height="0" Margin="852,1215,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="215"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,208,0,0" Text="SAT RAZREDNIKA&#x9;&#xD;&#xA;Vladimira Majdandžić" TextWrapping="Wrap" VerticalAlignment="Top" Height="86" Width="1070" FontSize="25" FontFamily="Yu Gothic"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,320,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="1070" FontSize="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,428,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="1070" FontSize="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,540,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="1070" FontSize="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,666,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="1070" FontSize="25"/>
+        <ScrollBar HorizontalAlignment="Left" Height="774" Margin="1442,0,0,0" VerticalAlignment="Center" Width="8" Background="Black" BorderBrush="Black" Foreground="Black" FocusVisualSecondaryBrush="#99000000"/>
 
     </Grid>
 </Page>
