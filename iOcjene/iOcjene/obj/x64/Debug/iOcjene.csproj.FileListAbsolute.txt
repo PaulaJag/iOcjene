@@ -135,3 +135,8 @@ C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Od
 C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.g.cs
 C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xaml
 C:\Users\Ga-gama\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xbf
+C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\bin\x64\Debug\Pages\Odjava.xbf
+C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.g.i.cs
+C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.g.cs
+C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xaml
+C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xbf

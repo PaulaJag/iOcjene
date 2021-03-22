@@ -28,11 +28,6 @@ namespace iOcjene
             this.InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
         private void Predmeti_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Predmeti));

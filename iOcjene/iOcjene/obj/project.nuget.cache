@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qxpl7EMNOEkLrKJYrwbPy3PIEIJ+NbenyvAy/+c7vCrTm2CSM2yeZzLbePVF633AmkWka0e3BYWlC0rBrAyV2Q==",
+  "dgSpecHash": "fT8HzIRGuJbrL5UCIlIohkth2XooghKNlmthir/qi0oKRxhQ06HSaSJY4r5JRbCkXX805E+dfnM/CIQB3JGneQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ga-gama\\Documents\\GitHub\\iOcjene\\iOcjene\\iOcjene\\iOcjene.csproj",
+  "projectFilePath": "C:\\Users\\David\\Documents\\GitHub\\iOcjene\\iOcjene\\iOcjene\\iOcjene.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

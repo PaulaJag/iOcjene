@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="844" VerticalAlignment="Center" Width="1314">
+        <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="837" VerticalAlignment="Center" Width="1314">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
@@ -17,6 +17,8 @@
                 <AcrylicBrush TintColor="#CCFFFFFF"/>
             </Border.Background>
         </Border>
+
+        <TextBlock x:ConnectionId='3' x:Name="iOcjene" TextWrapping="Wrap" Margin="0,128,0,0" FontSize="50" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="87"><Run Text="iOcjene"/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Page>

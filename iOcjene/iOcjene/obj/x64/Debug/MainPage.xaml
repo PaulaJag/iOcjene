@@ -9,7 +9,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid FocusVisualPrimaryBrush="{x:Null}" Background="#FFDCE1DE">
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="844" Margin="0,38,0,0" VerticalAlignment="Top" Width="1314">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="673*"/>
+            <RowDefinition Height="327*"/>
+        </Grid.RowDefinitions>
+        <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="837" VerticalAlignment="Top" Width="1314" Margin="0,82,0,0" Grid.RowSpan="2">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
@@ -17,12 +21,12 @@
                 <AcrylicBrush TintColor="#CCFFFFFF"/>
             </Border.Background>
         </Border>
-        <TextBox x:ConnectionId='2' x:Name="iOcjene" HorizontalAlignment="Center" Margin="0,92,0,0" Text="iOcjene" TextWrapping="Wrap" VerticalAlignment="Top" Height="109" Width="520" FontSize="70"                                   IsReadOnly="True" TextAlignment="Center" Opacity="0.8" FontFamily="Yu Gothic" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <Button x:ConnectionId='3' x:Name="Predmeti" Content="Predmeti" Margin="0,293,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="Red"                        FontFamily="Yu Gothic"/>
-        <Button x:ConnectionId='4' x:Name="Ispiti" Content="Ispiti" Margin="0,399,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30"                      Background="White" FontFamily="Yu Gothic"/>
-        <Button x:ConnectionId='5' x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,504,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FF0019FF"                              FontFamily="Yu Gothic"/>
-        <Button x:ConnectionId='6' x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,610,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="White"                               FontFamily="Yu Gothic"/>
-        <Button x:ConnectionId='7' x:Name="Odjava" Content="Odjava" Margin="0,934,0,0" VerticalAlignment="Top" Height="66" Width="1536" HorizontalAlignment="Center" FontSize="30" Background="White" BorderBrush="White" FontFamily="Yu Gothic"                     />
+        <Button x:ConnectionId='3' x:Name="Predmeti" Content="Predmeti" Margin="0,250,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="Red"                        FontFamily="Yu Gothic"/>
+        <Button x:ConnectionId='4' x:Name="Ispiti" Content="Ispiti" Margin="0,350,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30"                      Background="White" FontFamily="Yu Gothic"/>
+        <Button x:ConnectionId='5' x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,450,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FF0019FF"                              FontFamily="Yu Gothic"/>
+        <Button x:ConnectionId='6' x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,550,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="White"                               FontFamily="Yu Gothic"/>
+        <Button x:ConnectionId='7' x:Name="Odjava" Content="Odjava" Margin="0,245,0,0" VerticalAlignment="Top" Height="71" Width="1500" FontSize="30" Background="#FF648DFF" BorderBrush="White" FontFamily="Yu Gothic"                      HorizontalAlignment="Center" Grid.Row="1"/>
+        <TextBlock x:ConnectionId='8' x:Name="iOcjene" TextWrapping="Wrap" Margin="0,128,0,0" FontSize="50" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="87"><Run Text="iOcjene"/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Page>
