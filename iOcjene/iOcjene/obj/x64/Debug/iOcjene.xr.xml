@@ -11,8 +11,6 @@
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
@@ -24,6 +22,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Child" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -38,8 +37,26 @@
       <RootProperty Name="Background" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.AcrylicBrush">
+      <RootProperty Name="AlwaysUseFallback" />
+      <RootProperty Name="BackgroundSource" />
+      <RootProperty Name="TintColor" />
+    </RootType>
+    <RootType FullName="iOcjene.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Margin" />
@@ -60,12 +77,6 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
-    <RootType FullName="Windows.UI.Xaml.Media.AcrylicBrush">
-      <RootProperty Name="AlwaysUseFallback" />
-      <RootProperty Name="BackgroundSource" />
-      <RootProperty Name="TintColor" />
-    </RootType>
-    <RootType FullName="iOcjene.MainPage" />
     <RootType FullName="iOcjene.Pages.Ispiti" />
     <RootType FullName="iOcjene.Pages.NegativneOcjene" />
     <RootType FullName="iOcjene.Pages.Odjava" />
