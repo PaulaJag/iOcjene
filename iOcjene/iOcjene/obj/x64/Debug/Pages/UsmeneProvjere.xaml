@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="#FFDCE1DE">
         <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="837" VerticalAlignment="Center" Width="1314">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>

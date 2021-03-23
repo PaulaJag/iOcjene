@@ -8,31 +8,19 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-        <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="837" VerticalAlignment="Center" Width="1314">
+    <Grid Background="#FFDCE1DE">
+        <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="903" VerticalAlignment="Top" Width="1314" Margin="0,53,0,0">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
             <Border.Background>
                 <AcrylicBrush TintColor="#CCFFFFFF"/>
             </Border.Background>
-            <Button x:ConnectionId='5' x:Name="Menu" Content="Menu" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="9,9,1159,772"                      FontSize="24" Background="#FF2E6388">
-                <Button.Flyout>
-                    <MenuFlyout>
-                        <MenuFlyoutItem Text="Početna"/>
-                        <MenuFlyoutItem Text="Predmeti"/>
-                        <MenuFlyoutItem Text="Ispiti"/>
-                        <MenuFlyoutItem Text="Usmene provjere"/>
-                        <MenuFlyoutItem Text="Negativne ocjene"/>
-                    </MenuFlyout>
-                </Button.Flyout>
-            </Button>
         </Border>
 
         <TextBox HorizontalAlignment="Left" Height="0" Margin="852,1215,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="215"/>
-        <TextBlock x:ConnectionId='3' x:Name="iOcjene" TextWrapping="Wrap" Margin="0,128,0,0" FontSize="50" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="87"><Run Text="iOcjene"/><LineBreak/><Run/></TextBlock>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="1186" Margin="161,302,0,0" FocusVisualPrimaryBrush="#FF949494">
+        <TextBlock x:ConnectionId='3' x:Name="iOcjene" TextWrapping="Wrap" Margin="0,48,0,0" FontSize="50" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="87"><Run Text="iOcjene"/><LineBreak/><Run/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="140,266,0,0" FocusVisualPrimaryBrush="#FF949494">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
@@ -40,11 +28,11 @@
                 <AcrylicBrush TintColor="#CCA3A8DF"/>
             </Border.Background>
         </Border>
-        <TextBlock x:ConnectionId='4' x:Name="Predmeti_Text" TextWrapping="Wrap" Margin="161,238,0,0" FontSize="40" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="66" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="1000"><Run Text="Predmeti"/><LineBreak/><Run/></TextBlock>
-        <TextBlock TextWrapping="Wrap" Margin="181,317,0,0" FontSize="32" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="60" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="800" Text="Sat razrednika"/>
-        <TextBlock TextWrapping="Wrap" Margin="181,362,0,0" FontSize="32" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="60" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="800"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
-        <TextBlock TextWrapping="Wrap" Margin="1235,337,0,0" FontSize="32" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="60" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="100"><Run Text="0"/><Run Text=".00"/></TextBlock>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="120" VerticalAlignment="Center" Width="1186" Margin="161,0,0,0" FocusVisualPrimaryBrush="#FF949494">
+        <TextBlock x:ConnectionId='4' x:Name="Predmeti_Text" TextWrapping="Wrap" Margin="140,202,0,0" FontSize="24" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="42" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="1000"><Run Text="Predmeti"/><LineBreak/><Run/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="156,279,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Sat razrednika"/>
+        <TextBlock TextWrapping="Wrap" Margin="156,302,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="458,291,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="40"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="375" Margin="0,266,0,0" FocusVisualPrimaryBrush="#FF949494">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
@@ -52,9 +40,120 @@
                 <AcrylicBrush TintColor="#CCA3A8DF"/>
             </Border.Background>
         </Border>
-        <TextBlock TextWrapping="Wrap" Margin="181,455,0,0" FontSize="32" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="60" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="800" Text="Matematika"/>
-        <TextBlock TextWrapping="Wrap" Margin="181,500,0,0" FontSize="32" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="60" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="800"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
-        <TextBlock TextWrapping="Wrap" Margin="1235,475,0,0" FontSize="32" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="60" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="100"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="581,279,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="581,302,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='5' x:Name="Matematika" TextWrapping="Wrap" Margin="878,291,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <ScrollBar HorizontalAlignment="Left" Margin="1377,202,0,0" VerticalAlignment="Top" Height="691"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="986,267,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="1004,280,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="1004,303,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='6' x:Name="HrvatskiJezik" TextWrapping="Wrap" Margin="1301,292,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="140,362,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="159,375,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="159,398,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='7' x:Name="EngleskiJezik" TextWrapping="Wrap" Margin="456,387,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="375" Margin="0,362,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="581,375,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="581,398,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='8' x:Name="Fizika" TextWrapping="Wrap" Margin="878,387,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="986,363,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="1004,376,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="1004,399,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='9' x:Name="Mikroupravljači" TextWrapping="Wrap" Margin="1301,388,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="140,456,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="159,469,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="159,492,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='10' x:Name="OperacijskiSustavi" TextWrapping="Wrap" Margin="456,481,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="375" Margin="0,456,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="581,469,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="581,492,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='11' x:Name="Programiranje" TextWrapping="Wrap" Margin="878,481,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="986,457,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="1004,470,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="1004,493,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='12' x:Name="RačunalneMreže" TextWrapping="Wrap" Margin="1301,482,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="140,552,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="159,565,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="159,588,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='13' x:Name="SkriptniJezici" TextWrapping="Wrap" Margin="456,577,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="375" Margin="0,552,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="581,565,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="581,588,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='14' x:Name="Tjelesni" TextWrapping="Wrap" Margin="878,577,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="375" Margin="986,553,0,0" FocusVisualPrimaryBrush="#FF949494">
+            <Border.BorderBrush>
+                <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
+            </Border.BorderBrush>
+            <Border.Background>
+                <AcrylicBrush TintColor="#CCA3A8DF"/>
+            </Border.Background>
+        </Border>
+        <TextBlock TextWrapping="Wrap" Margin="1004,566,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250" Text="Matematika"/>
+        <TextBlock TextWrapping="Wrap" Margin="1004,589,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Normal" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="250"><Run Text="Vladimira Majdandžić"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='15' x:Name="WebDizajn" TextWrapping="Wrap" Margin="1301,578,0,0" FontSize="14" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="20" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="50"><Run Text="0"/><Run Text=".00"/></TextBlock>
 
     </Grid>
 </Page>
