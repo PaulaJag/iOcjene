@@ -140,3 +140,36 @@ C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odja
 C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.g.cs
 C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xaml
 C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\iOcjene.csprojAssemblyReference.cache
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\App.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\App.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\MainPage.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Ispiti.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Ispiti.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\NegativneOcjene.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\NegativneOcjene.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Predmeti.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Predmeti.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\UsmeneProvjere.g.i.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\UsmeneProvjere.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\App.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\MainPage.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Ispiti.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\NegativneOcjene.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Predmeti.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\UsmeneProvjere.xaml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\App.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\MainPage.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Ispiti.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\NegativneOcjene.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Odjava.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\Predmeti.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\Pages\UsmeneProvjere.xbf
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\iOcjene.exe
+C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\obj\x64\Debug\iOcjene.pdb
