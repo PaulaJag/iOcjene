@@ -171,5 +171,10 @@ namespace iOcjene.Pages
 
             WebDizajn.Text = prosjekWebDizajn.ToString("0.00");
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

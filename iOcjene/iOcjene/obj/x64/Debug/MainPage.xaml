@@ -16,13 +16,13 @@
             <Border.Background>
                 <AcrylicBrush TintColor="#CCFFFFFF"/>
             </Border.Background>
-            <Image Margin="369,9,368,643" Source="/cover.png"/>
+            <Image Margin="369,54,368,598" Source="/cover.png"/>
         </Border>
 
-        <Button x:ConnectionId='3' x:Name="Predmeti" Content="Predmeti" Margin="0,250,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="#FFD8D8D8"                        FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
-        <Button x:ConnectionId='4' x:Name="Ispiti" Content="Ispiti" Margin="0,350,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30"                      Background="#FFD8D8D8" FontFamily="Yu Gothic"/>
-        <Button x:ConnectionId='5' x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,450,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8"                              FontFamily="Yu Gothic"/>
-        <Button x:ConnectionId='6' x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,550,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8"                               FontFamily="Yu Gothic"/>
+        <Button x:ConnectionId='3' x:Name="Predmeti" Content="Predmeti" Margin="0,338,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="#FFD8D8D8"                        FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Button x:ConnectionId='4' x:Name="Ispiti" Content="Ispiti" Margin="0,438,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30"                      Background="#FFD8D8D8" FontFamily="Yu Gothic" FocusVisualPrimaryBrush="White" Foreground="Black"/>
+        <Button x:ConnectionId='5' x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,538,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8"                              FontFamily="Yu Gothic" Foreground="Black"/>
+        <Button x:ConnectionId='6' x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,638,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8"                               FontFamily="Yu Gothic" Foreground="Black"/>
         <Button x:ConnectionId='7' x:Name="Odjava" Content="Odjava" Margin="0,909,0,0" VerticalAlignment="Top" Height="91" Width="1314" FontSize="30" Background="#FFD8D8D8" BorderBrush="#FFD8D8D8" FontFamily="Yu Gothic"                      FocusVisualPrimaryBrush="Black" HorizontalAlignment="Center"/>
         <Image HorizontalAlignment="Left" Height="322" Margin="-558,320,0,0" VerticalAlignment="Top" Width="408"/>
 
