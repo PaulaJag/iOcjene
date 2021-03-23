@@ -1,1 +1,1 @@
-C:\Users\Asus Bex\Documents\GitHub\iOcjene\iOcjene\iOcjene\iOcjene.csproj;x64
+C:\Users\David\Documents\GitHub\iOcjene\iOcjene\iOcjene\iOcjene.csproj;x64

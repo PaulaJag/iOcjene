@@ -9,21 +9,31 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid FocusVisualPrimaryBrush="{x:Null}" Background="#FFDCE1DE">
-        <Border x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="837" VerticalAlignment="Top" Width="1314" Margin="0,67,0,0">
+        <Border x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="875" VerticalAlignment="Top" Width="1314" Margin="0,29,0,0">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
             <Border.Background>
                 <AcrylicBrush TintColor="#CCFFFFFF"/>
             </Border.Background>
-            <Image Margin="369,54,368,598" Source="/cover.png"/>
+            <Image Margin="368,9,369,642" Source="/cover.png"/>
         </Border>
 
-        <Button x:Name="Predmeti" Content="Predmeti" Margin="0,338,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="#FFD8D8D8" Click="Predmeti_Click" FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
-        <Button x:Name="Ispiti" Content="Ispiti" Margin="0,438,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Click="Ispiti_Click" Background="#FFD8D8D8" FontFamily="Yu Gothic" FocusVisualPrimaryBrush="White" Foreground="Black"/>
-        <Button x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,538,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8" Click="UsmeneProvjere_Click" FontFamily="Yu Gothic" Foreground="Black"/>
-        <Button x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,638,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8" Click="NegativneOcjene_Click" FontFamily="Yu Gothic" Foreground="Black"/>
-        <Button x:Name="Odjava" Content="Odjava" Margin="0,909,0,0" VerticalAlignment="Top" Height="91" Width="1314" FontSize="30" Background="#FFD8D8D8" BorderBrush="#FFD8D8D8" FontFamily="Yu Gothic" Click="Odjava_Click" FocusVisualPrimaryBrush="Black" HorizontalAlignment="Center"/>
+        <Button x:Name="Predmeti" Content="Predmeti" Margin="0,302,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" RequestedTheme="Light" Background="#FFD8D8D8" Click="Predmeti_Click" FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Button x:Name="Ispiti" Content="Ispiti" Margin="0,402,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Click="Ispiti_Click" Background="#FFD8D8D8" FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1" Foreground="Black"/>
+        <Button x:Name="UsmeneProvjere" Content="Usmene provjere" Margin="0,502,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8" Click="UsmeneProvjere_Click" FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1" Foreground="Black"/>
+        <Button x:Name="NegativneOcjene" Content="Negativne ocjene" Margin="0,602,0,0" VerticalAlignment="Top" Height="70" Width="520" HorizontalAlignment="Center" FontSize="30" Background="#FFD8D8D8" Click="NegativneOcjene_Click" FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1" Foreground="Black"/>
+        <Button x:Name="Odjava" Content="Izađi" Margin="1160,51,0,0" VerticalAlignment="Top" Height="65" Width="228" FontSize="30" FontFamily="Yu Gothic" Click="Odjava_Click" Foreground="Black">
+            <Button.FocusVisualPrimaryBrush>
+                <AcrylicBrush/>
+            </Button.FocusVisualPrimaryBrush>
+            <Button.Background>
+                <AcrylicBrush/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <AcrylicBrush/>
+            </Button.BorderBrush>
+        </Button>
         <Image HorizontalAlignment="Left" Height="322" Margin="-558,320,0,0" VerticalAlignment="Top" Width="408"/>
 
     </Grid>

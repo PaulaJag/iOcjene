@@ -9,15 +9,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="#FFDCE1DE">
-        <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="837" VerticalAlignment="Center" Width="1314">
+        <Border x:ConnectionId='2' x:Name="Border" BorderThickness="1" HorizontalAlignment="Center" Height="915" VerticalAlignment="Center" Width="1314">
             <Border.BorderBrush>
                 <AcrylicBrush AlwaysUseFallback="False" BackgroundSource="Backdrop" TintColor="#CCB4B4B4"/>
             </Border.BorderBrush>
             <Border.Background>
                 <AcrylicBrush TintColor="#CCFFFFFF"/>
             </Border.Background>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Margin="225,417,724,456" Background="#66FFFFFF" SelectionHighlightColorWhenNotFocused="White" FocusVisualPrimaryBrush="Black" Foreground="Black" FontSize="16"/>
         </Border>
-        <TextBlock x:ConnectionId='3' x:Name="iOcjene" TextWrapping="Wrap" Margin="0,128,0,0" FontSize="50" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="87"><Run Text="iOcjene"/><LineBreak/><Run/></TextBlock>
+        <Button x:ConnectionId='3' x:Name="NavPočetna" Content="Početna" Margin="156,202,0,0" VerticalAlignment="Top" Height="49" Width="250" FontSize="24" RequestedTheme="Light" Background="#FFD8D8D8"                          FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Button x:ConnectionId='4' x:Name="NavPredmeti" Content="Predmeti" Margin="406,202,0,0" VerticalAlignment="Top" Height="49" Width="246" FontSize="24" RequestedTheme="Light" Background="#FFD8D8D8"                        FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Button x:ConnectionId='5' x:Name="NavNegativneOcjene" Content="Negativne ocjene" Margin="652,202,0,0" VerticalAlignment="Top" Height="49" Width="233" FontSize="24" RequestedTheme="Light" Background="#FFD8D8D8"                               FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Button x:ConnectionId='6' x:Name="NavIspiti" Content="Ispiti" Margin="885,202,0,0" VerticalAlignment="Top" Height="49" Width="230" FontSize="24" RequestedTheme="Light" Background="#FFD8D8D8"                      FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Button x:ConnectionId='7' x:Name="NavUsmeneProvjere" Content="Usmene provjere" Margin="1115,202,0,0" VerticalAlignment="Top" Height="49" Width="229" FontSize="24" RequestedTheme="Light" Background="#FFB4D5FF"                              FontFamily="Yu Gothic" BorderBrush="Transparent" FocusVisualSecondaryBrush="#99FFFFFF" BorderThickness="0,2,2,2" Opacity="1"/>
+        <Image Margin="472,20,452,795" Source="/cover.png"/>
+        <TextBlock TextWrapping="Wrap" Margin="156,327,0,0" FontSize="20" FontFamily="Yu Gothic" FontWeight="Bold" FocusVisualPrimaryBrush="White" Foreground="Black" VerticalAlignment="Top" Height="28" FocusVisualSecondaryBrush="White" HorizontalAlignment="Left" Width="137" Text="Matematika"/>
 
     </Grid>
 </Page>

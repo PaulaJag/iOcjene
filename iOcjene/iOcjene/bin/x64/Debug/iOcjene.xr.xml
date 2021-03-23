@@ -11,6 +11,7 @@
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
@@ -40,8 +41,8 @@
       <RootProperty Name="FocusVisualSecondaryBrush" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Opacity" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
@@ -66,21 +67,20 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Inlines" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Text" />
-      <RootEvent Name="SelectionChanged" />
+      <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="iOcjene.Pages.Ispiti" />
     <RootType FullName="iOcjene.Pages.NegativneOcjene" />
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="iOcjene.Pages.Odjava" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -90,6 +90,11 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="SelectionHighlightColorWhenNotFocused" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ScrollBar">
       <RootProperty Name="HorizontalAlignment" />

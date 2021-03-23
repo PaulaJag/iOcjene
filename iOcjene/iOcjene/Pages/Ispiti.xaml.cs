@@ -26,5 +26,30 @@ namespace iOcjene.Pages
         {
             this.InitializeComponent();
         }
+
+        private void NavPocetna_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Predmeti_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Predmeti));
+        }
+
+        private void NegativneOcjene_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(NegativneOcjene));
+        }
+
+        private void Ispiti_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Ispiti));
+        }
+
+        private void UsmeneProvjere_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(UsmeneProvjere));
+        }
     }
 }
